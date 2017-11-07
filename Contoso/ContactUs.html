@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Contact Us</title>
+    <link href="styles/sitestyles.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Contact Contoso Conferencing</h1>
@@ -18,5 +19,66 @@
     <p>
         <a href="mailto:contact@contoso.com">contact@contoso.com</a>
     </p>
+    <p>
+        If you would lilke to contact Contoso Conferencing, whether.....
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Mauris facilisis turpis
+        elementum, auctor quam placerat, volutpat
+        sapien. Phasellus placerat elit et risus
+        fringilla mollis. Nullam luctus lorem a
+        convallis posuere. Nunc at porta augue.
+        Pellentesque euismod nisl at dolor elementum
+        posuere. Aliquam nec nisl sit amet urna
+        ornare tempus. Integer libero magna, commodo
+        nec lobortis id, volutpat eu leo.
+        Pellentesque consectetur pharetra felis, at
+        porttitor arcu imperdiet ut. Suspendisse
+        imperdiet ante libero, vel dictum felis
+        sagittis accumsan. Phasellus cursus sapien
+        et ex bibendum ullamcorper. Sed in purus
+        lacus. Nam suscipit felis et aliquet auctor.
+        Suspendisse condimentum, lorem ut sodales
+        molestie, felis dolor mattis justo, eu
+        pharetra ligula libero rhoncus libero.
+        Nunc eget dignissim felis.
+        Nunc a diam at sem facilisis tincidunt ut
+        sit amet purus. Aenean id ornare augue.
+    </p>
+    <form method="Post" action="support.aspx">
+        <fieldset>
+            <legend>Your Details and Enquiry</legend>
+            <ol>
+                <li>
+                    <label for="id_user_name">
+                        <strong>Name</strong>
+                    </label>
+                    <input type="text" name="UserName"
+                           id="id_user_name" />
+                </li>
+                <li>
+                    <label for="id_phone">
+                        Telephone
+                    </label>
+                    <input type="tel" name="Phone"
+                           id="id_phone" />
+                </li>
+                <li>
+                    <label for="id_email">
+                        Email Address
+                    </label>
+                    <input type="text" name="Email"
+                           id="id_email" />
+                </li>
+                <li>
+                    <label for="id_message">
+                        <strong>Message</strong>
+                    </label>
+                    <textarea name="Message" id="id_message"
+                              cols="30" rows="10" placeholder="Add your message"></textarea>
+                </li>
+            </ol>
+        </fieldset>
+        <input type="submit" value="Send" />
+    </form>
 </body>
 </html>
