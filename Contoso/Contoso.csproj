@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ContactUs.html" />
+    <Content Include="images\Contoso.png" />
     <Content Include="index.html" />
     <Content Include="styles\ContactUsStyles.css" />
     <Content Include="Web.config" />
